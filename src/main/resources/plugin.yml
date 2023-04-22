@@ -1,0 +1,120 @@
+name: TechJet
+version: '${project.version}'
+main: me.alvsch.techjet.TechJet
+api-version: 1.19
+depend:
+  - LPC
+  - LuckPerms
+authors: [Alvsch1]
+commands:
+  techjet:
+    usage: /<command>
+    permission: "techjet.techjet"
+  discord:
+    usage: /<command>
+    permission: "techjet.discord"
+    permission-message: "&4You dont have access to this command"
+    aliases:
+      - dc
+  invsee:
+    usage: /<command> <player>
+    permission: "techjet.invsee"
+    permission-message: "&4You dont have access to this command"
+  echest:
+    usage: /<command> [player]
+    permission: "techjet.enderchest"
+    permission-message: "&4You dont have access to this command"
+    aliases:
+      - ec
+  itemrename:
+    usage: /<command> <name>
+    permission: "techjet.itemrename"
+    permission-message: "&4You dont have access to this command"
+    aliases:
+      - iname
+  fly:
+    usage: /<command> [player]
+    permission: "techjet.fly"
+    permission-message: "&4You dont have access to this command"
+  flyspeed:
+    usage: /<command> <speed> [player]
+    permission: "techjet.flyspeed"
+    permission-message: "&4You dont have access to this command"
+  clearchat:
+    usage: /<command> [-s]
+    permission: "techjet.clearchat"
+    permission-message: "&4You dont have access to this command"
+  globalmute:
+    usage: /<command> [-s]
+    permission: "techjet.globalmute"
+    permission-message: "&4You dont have access to this command"
+    aliases:
+      - mutechat
+  report:
+    usage: /<command> <player> <reason>
+    permission: "techjet.report"
+    permission-message: "&4You dont have access to this command"
+  nick:
+    usage: /<command> <nickname>
+    permission: "techjet.nick"
+    permission-message: "&4You dont have access to this command"
+  silentcontainer:
+    usage: /<command>
+    permission: "techjet.silentcontainer"
+    permission-message: "&4You dont have access to this command"
+    aliases:
+      - silentchest
+      - scontainer
+      - schest
+  modmode:
+    usage: /<command>
+    permission: "techjet.modmode"
+    permission-message: "&4You dont have access to this command"
+    aliases:
+      - mod
+      - staffmode
+      - staff
+  staffchat:
+    usage: /<command> <message>
+    permission: "techjet.staffchat"
+    permission-message: "&4You dont have access to this command"
+    aliases:
+      - sc
+  vanish:
+    usage: /<command> [level]
+    permission: "techjet.vanish"
+    permission-message: "&4You dont have access to this command"
+    aliases:
+      - v
+  freeze:
+    usage: /<command> <player>
+    permission: "techjet.freeze"
+    permission-message: "&4You dont have access to this command"
+  playtime:
+    usage: /<command> [player]
+    permission: "techjet.playtime"
+    permission-message: "&4You dont have access to this command"
+  spawn:
+    usage: /<command>
+    permission: "techjet.spawn"
+    permission-message: "&4You dont have access to this command"
+  setspawn:
+    usage: /<command>
+    permission: "techjet.setspawn"
+    permission-message: "&4You dont have access to this command"
+
+
+permissions:
+  techjet.discord:
+    default: true
+  techjet.report:
+    default: true
+  techjet.playtime:
+    default: true
+  techjet.spawn:
+    default: true
+
+  techjet.techjet:
+    default: true
+  techjet.techjet.reload:
+    default: op

@@ -1,0 +1,9 @@
+discord-link: "https://discord.gg/PVp7EVKpMW"
+
+mention-prefix: "&d@"
+staffchat-prefix: "#"
+
+max-flyspeed: 10
+
+report-reasons:
+  - "hacking"

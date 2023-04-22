@@ -1,0 +1,44 @@
+player-not-found: "&cCould not find that player."
+console-cant-execute: "Console cant execute this command."
+hold-item: "&cYou need to be holding an item."
+no-permission: "&4You dont have access to this command"
+target-bypass: "&4That player bypasses that action"
+
+
+clearchat: "&6Chat was cleared by {sender}."
+clearchat-silent: "&7[Silent] Chat was cleared by {sender}."
+
+fly-enabled: "&6Set fly mode &cenabled &6for {sender}."
+fly-disabled: "&6Set fly mode &cdisabled &6for {sender}."
+
+flyspeed: "&6Set &cflying &6speed to &c{speed} &6for {sender}."
+
+freeze-freeze-other: "&6You froze {sender}."
+freeze-freeze-you: "&6You got frozen by {sender}."
+freeze-unfreeze-other: "&6You unfroze {sender}."
+freeze-unfreeze-you: "&6You got unfrozen by {sender}."
+
+globalmute-on-silent: "&7[Silent] Chat was muted by {sender}."
+globalmute-on: "&6Chat was muted by {sender}."
+globalmute-off-silent: "&7[Silent] Chat was unmuted by {sender}."
+globalmute-off: "&6Chat was unmuted by {sender}."
+
+reload-start: "&6Reloading all files!"
+reload-finish: "&6Reloaded all files!"
+
+modmode-on: "&6Entering ModMode."
+modmode-off: "&6Exiting ModMode."
+
+nick: "&6Your nickname is now {nick}."
+nick-off: "&6You now longer have a nickname."
+
+silentcontainer-on: "&6Silent Container is now on."
+silentcontainer-off: "&6Silent Container is now off."
+
+setspawn: "&6Spawn has been set"
+spawn: "&6Teleported to spawn"
+spawn-not-set: "&6Spawn is not set"
+
+report: "&aYour report have been submitted!"
+
+playtime: "&6{sender}'s playtime is {playtime}"
